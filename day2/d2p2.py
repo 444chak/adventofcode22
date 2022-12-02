@@ -45,7 +45,10 @@ for i in tours:
     if i[1] == 'Z':
         points += 6
         points+= valeurs2[gagner[i[0]]]
-    if i[1
+    if i[1] == 'X':
+        if i[0] == 'A': points += 3
+        if i[0] == 'B': points += 1
+        if i[0] == 'C': points += 2
 
     
 
