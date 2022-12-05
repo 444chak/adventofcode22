@@ -24,3 +24,5 @@ def p2():
             asw += 1
 
     return len(input)- asw 
+
+print(p1(), p2())
